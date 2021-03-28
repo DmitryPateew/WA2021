@@ -1,0 +1,11 @@
+const main = document.querySelector(`.center`);
+export const inputField = main.querySelector(`.input`);
+export const addButton = main.querySelector(`.add`);
+export const wrapper = main.querySelector(`.elements`);
+export const readOnlyButton = main.querySelector(`.readOnly`);
+export const clear = main.querySelector(`.clear`);
+export const counter = `counter`;
+export const counterStartValue = `0`;
+export const click = `click`;
+export const emptyInput = ``;
+export const disabledClass = `disabled`;

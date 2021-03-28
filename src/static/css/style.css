@@ -1,0 +1,147 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+}
+
+button:disabled {
+    background-color: lightslategray;
+    color: #F7F7F7;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.disabled {
+    background-color: lightslategray;
+    color: #F7F7F7;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.center {
+    padding-top: 100px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.title {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.input {
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: honeydew;
+    border-radius: 8px;
+    border: 2px solid #666666;
+}
+
+.input::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+}
+
+.add {
+    padding: 17px 20px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    background-color: lightgreen;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    transition-timing-function: ease;
+}
+
+.add:hover {
+    background-color: lawngreen;
+    color: black;
+    font-weight: bold;
+}
+
+.add:active {
+    background-color: green;
+    color: #F7F7F7;
+}
+
+.readOnly {
+    margin-right: 20px;
+    padding: 15px 20px;
+    background-color: lightyellow;
+    border: 2px solid #E39128;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 400ms;
+    transition-timing-function: ease;
+}
+
+.readOnly:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.readOnly:active {
+    background-color: goldenrod;
+    color: #F7F7F7;
+}
+
+.clear {
+    padding: 15px 20px;
+    text-transform: uppercase;
+    background-color: lightpink;
+    border: 2px solid red;
+    border-radius: 8px;
+    color: black;
+    cursor: pointer;
+    transition: 400ms;
+    transition-timing-function: ease;
+}
+
+.clear:hover {
+    background-color: red;
+    color: #F7F7F7;
+    font-weight: bold;
+}
+
+.clear:active {
+    background-color: darkred;
+    color: #F7F7F7;
+    font-weight: bold;
+}
+
+.elements {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.elements div {
+    padding: 10px 15px;
+    padding-right: 35px;
+    border: 2px solid #E39128;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 400ms;
+    transition-timing-function: ease;
+}
+
+.elements div:hover {
+    color: #F7F7F7;
+    background-color: red;
+    border: 2px solid red;
+    background-image: url("../img/deleteIcon.svg");
+    background-position: calc(100% - 5px) center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.elements div:active {
+    color: #F7F7F7;
+    background-color: darkred;
+    border: 2px solid darkred;
+    font-weight: bold;
+}

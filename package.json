@@ -1,0 +1,21 @@
+{
+  "name": "wa-2021",
+  "version": "1.0.0",
+  "mode": "none",
+  "private": true,
+  "description": "Test task WA2021",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "devDependencies": {
+    "webpack": "4.44.1",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0",
+    "copy-webpack-plugin": "6.4.1"
+  },
+  "engines": {
+    "node": "12"
+  },
+  "dependencies": {}
+}
